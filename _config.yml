@@ -5,8 +5,8 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            NataleVinto.IT
-tagline:          'kubernetes,openshift,opensource,blues'
+title:            Natale
+tagline:          'IT & ICT in a sentimental mood'
 description:      '*Engineer. Linux. Containers. Kubernetes. OOP and Functions. <a href="https://twitter.com/natalevinto" target="_blank">@natalevinto</a>'
 url:              http://natalevinto.IT/
 baseurl:          /
