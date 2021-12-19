@@ -1,37 +1,142 @@
----
-layout: default
-title: Home
----
+<!DOCTYPE HTML>
+<!--
+	Paradigm Shift by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Natale &middot; IT & ICT in a sentimental mood</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+				<!-- Intro -->
+					<section class="intro">
+						<header>
+							<h1>Natale Vinto</h1>
+							<p>*Engineer. Linux. Containers. Kubernetes. FOSS Enthusiast. <a href="https://twitter.com/natalevinto" target="_blank">@natalevinto</a></p>
+							<ul class="actions">
+								<li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
+							</ul>
+						</header>
+						<div class="content">
+							<span class="image fill" data-position="center"><img src="images/pic01.jpg" alt="" /></span>
+						</div>
+					</section>
 
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
+				<!-- Section -->
+					<section id="first">
+						<header>
+							<h2>Developer Advocate</h2>
+						</header>
+						<div class="content">
+							<p><strong>Hi!</strong> I'm a Software Engineer with more than 10 years of expertise on IT and ICT technologies and a consolidated background on telecommunications and Linux operating systems. As a Solution Architect with a Java development background, I spent some years as EMEA Specialist Solution Architect for <a href="https://openshift.com">OpenShift</a> at <a href="https://redhat.com">Red Hat</a>. Today, I'm a <a href="https://developers.redhat.com/author/natale-vinto">Developer Advocate</a> at Red Hat, helping people within communities and customers have success with their <a href="https://kubernetes.io">Kubernetes</a> and cloud-native strategy.</p>
+							<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
+						</div>
+					</section>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+				<!-- Section -->
+					<section>
+						<header>
+							<h2>Books Author</h2>
+						</header>
+						<div class="content">
+							<p>I'm <strong>author</strong> at O'Reilly and these are the book I authored:</p>
+                            <div class="gallery">
+                                            <a href="https://learning.oreilly.com/library/view/modernizing-enterprise-java/9781098102135/"><img src="images/book.jpg" alt="Modernizing Enterprise Java" width="200"/></a>
+							</div>
+							
+						</div>
+					</section>
+
+				<!-- Section -->
+					<section>
+						<header>
+							<h2>Public Speaking</h2>
+						</header>
+						<div class="content">
+							<p>As an Evangelist/Advocate, I join conferences, events, workshops and tech talks.</p>
+
+							<!-- Section -->
+								<section>
+									<header>
+										<h3>Conferences</h3>
+										<p>I love Tech Conferences and I join them when possible also a speaker</p>
+									</header>
+									<div class="content">
+										<div class="gallery">
+											<a href="images/gallery/fulls/01.jpg" class="landscape"><img src="images/gallery/thumbs/01.jpg" alt="" /></a>
+											<a href="images/gallery/fulls/02.jpg"><img src="images/gallery/thumbs/02.jpg" alt="" /></a>
+											<a href="images/gallery/fulls/03.jpg"><img src="images/gallery/thumbs/03.jpg" alt="" /></a>
+											<a href="images/gallery/fulls/04.jpg" class="landscape"><img src="images/gallery/thumbs/04.jpg" alt="" /></a>
+										</div>
+									</div>
+								</section>
+							<!-- Section -->
+								<section>
+									<header>
+										<h3>Streaming</h3>
+										<p>I'm hosting a tech show called <a href="https://www.youtube.com/playlist?list=PLaR6Rq6Z4IqdKiGzRkBRKCiyAzQ5hM-rb">OpenShift Coffee Break</a> at <a href="https://openshift.tv">OpenShift.TV</a> a Web TV where we talk all about Kubernetes and Cloud Native.  </p>
+										<p>I join a CodeCaster the <a href="https://developers.redhat.com/devnation/deep-dive">DevNation Deep Dives</a> to do interactive workshops about Kubernetes, Helm, Istio, Knative, Tekton and many more.</p>
+									</header>
+									<div class="content">
+										<div class="gallery">
+											<a href="images/gallery/fulls/05.jpg" class="landscape"><img src="images/gallery/thumbs/05.jpg" alt="" /></a>
+											<a href="images/gallery/fulls/06.jpg"><img src="images/gallery/thumbs/06.jpg" alt="" /></a>
+											<a href="images/gallery/fulls/07.jpg"><img src="images/gallery/thumbs/07.jpg" alt="" /></a>
+										</div>
+									</div>
+								</section>
+								
+
+
+
+				<!-- Section -->
+					<section>
+						<header>
+							<h2>Get in touch</h2>
+						</header>
+						<div class="content">
+							<p>Checkout my <a href="https://github.com/blues-man">GitHub</a>, ping me on <a href="https://twitter.com/natalevinto">Twitter</a> or <a href="https://linkedin.com/in/natalevinto">LinkedIn</a>.</p>
+						</div>
+						<footer>
+							<ul class="items">
+								<li>
+									<h3>Email</h3>
+									<img src="images/mail.png" alt="email"/>
+								</li>
+								<li>
+									<h3>Elsewhere</h3>
+									<ul class="icons">
+										<li><a href="https://twitter.com/natalevinto" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="https://linkedin.com/in/natalevinto" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+										<li><a href="https://github.com/blues-man" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+									</ul>
+								</li>
+							</ul>
+						</footer>
+					</section>
+
+				<!-- Copyright -->
+					<div class="copyright">&copy; Natale Vinto. All rights reserved. Design: <a href="https://html5up.net">HTML5 UP</a>.</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
